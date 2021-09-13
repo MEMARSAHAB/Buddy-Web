@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://0eca9c31ce86.ngrok.io' });
+const API = axios.create({ baseURL: 'https://bbd-server.herokuapp.com' });
 
 API.interceptors.request.use(function (config) {
   const token = JSON.parse(localStorage.getItem('persist:root')).token;

@@ -1,10 +1,10 @@
 # BloodBank App
 
-# use following commands to run web app localy
+## use following commands to run web app localy
 
-# npm install
+##### npm install
 
-# npm run start
+##### npm run start
 
 #
 
